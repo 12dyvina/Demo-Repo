@@ -1,0 +1,38 @@
+/* Basic styles for the webpage */
+
+body {
+    font-family: Arial, sans-serif; /* Set font for the page */
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+header, footer {
+    background-color: #333; /* Dark background for header and footer */
+    color: white; /* Text color */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the main section */
+section {
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Style the button */
+button {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
